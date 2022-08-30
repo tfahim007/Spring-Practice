@@ -13,10 +13,13 @@
 			class="com.tahmid.springdemo.HappyFortuneService">
 
 	</bean>
-	<bean id="myCoach" class="com.tahmid.springdemo.FootballCoach">
+
+	<bean id="myCoach" class="com.tahmid.springdemo.BaseballCoach">
 		<constructor-arg  ref="myFortune" />
+	</bean>
 
-
+	<bean id="myCricketCoach" class="com.tahmid.springdemo.CricketCoach">
+		<property name="fortuneService" ref="myFortune"></property>
 	</bean>
 
 </beans>

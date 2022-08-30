@@ -9,6 +9,11 @@ public class BaseballCoach implements Coach{
     public BaseballCoach(FortuneService service){
         this.service = service;
     }
+
+    public BaseballCoach() {
+
+    }
+
     @Override
     public String getDailyWorkout() {
         return "30 mins pitching practice";

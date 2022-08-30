@@ -16,6 +16,6 @@ public class FootballCoach implements Coach{
 
     @Override
     public String getDailyFortune() {
-        return service.getDailyFortune();
+        return "Just do it " + service.getDailyFortune();
     }
 }
