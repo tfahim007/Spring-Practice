@@ -3,7 +3,6 @@ package com.tahmid.springdemo;
 /**
  * @author Tahmidul Islam
  */
-public interface Coach {
-    String getDailyWorkout();
+public interface FortuneService {
     public String getDailyFortune();
 }

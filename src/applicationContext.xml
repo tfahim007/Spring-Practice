@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:context="http://www.springframework.org/schema/context"
     xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd
@@ -9,7 +9,13 @@
 
 	<!-- add entry to enable component scanning -->
 
+	<bean id="myFortune"
+			class="com.tahmid.springdemo.HappyFortuneService">
+
+	</bean>
 	<bean id="myCoach" class="com.tahmid.springdemo.FootballCoach">
+		<constructor-arg  ref="myFortune" />
+
 
 	</bean>
 
