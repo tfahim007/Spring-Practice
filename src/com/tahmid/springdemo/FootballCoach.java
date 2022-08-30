@@ -18,4 +18,6 @@ public class FootballCoach implements Coach{
     public String getDailyFortune() {
         return "Just do it " + service.getDailyFortune();
     }
+
+
 }
