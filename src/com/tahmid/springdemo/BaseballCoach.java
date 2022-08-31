@@ -13,7 +13,12 @@ public class BaseballCoach implements Coach{
     public BaseballCoach() {
 
     }
-
+    public void doMyStartUpStuff(){
+        System.out.println("Inside Basketball: Startup");
+    }
+    public void doMyCleamUpStuff(){
+        System.out.println("Inside Basketball: Destroy");
+    }
     @Override
     public String getDailyWorkout() {
         return "30 mins pitching practice";
@@ -23,4 +28,5 @@ public class BaseballCoach implements Coach{
     public String getDailyFortune() {
         return service.getDailyFortune();
     }
+
 }
