@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb8c35a8-6a52-4cb3-ab54-7b6f04e770b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4bed90e67371abbf0225d4972214114e2e6ff88" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotation-applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/annotation-applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tahmid/springdemo/SpringAnnotationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tahmid/springdemo/SpringAnnotationDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tahmid/springdemo/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tahmid/springdemo/TennisCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tahmid/annotationdemo/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tahmid/annotationdemo/TennisCoach.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +147,7 @@
       <workItem from="1661794749000" duration="2061000" />
       <workItem from="1661834965045" duration="11394000" />
       <workItem from="1661882452203" duration="26000" />
-      <workItem from="1661924370687" duration="9588000" />
+      <workItem from="1661924370687" duration="11198000" />
     </task>
     <servers />
   </component>

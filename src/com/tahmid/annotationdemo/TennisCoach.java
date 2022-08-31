@@ -10,11 +10,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class TennisCoach implements Coach{
     private FortuneServiceAnnot service;
-
-    @Autowired
-    public TennisCoach(FortuneServiceAnnot service){
-        this.service = service;
+    public TennisCoach(){
+        System.out.println("Inside Tennis Default Constructor");
     }
+
     @Override
     public String getDailyWorkout() {
         return "30 mins Back Volley";
@@ -23,5 +22,11 @@ public class TennisCoach implements Coach{
     @Override
     public String getDailyFortune() {
         return service.getDailyFortune();
+    }
+
+    @Autowired
+    public void setService(FortuneServiceAnnot service) {
+        System.out.println("Inside Setter Injection");
+        this.service = service;
     }
 }
