@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb8c35a8-6a52-4cb3-ab54-7b6f04e770b2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringPractice.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Projects/SpringPractice/libs/spring-websocket-5.3.9.jar",
+    "last_opened_file_path": "C:/Projects/SpringPractice/src",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
@@ -48,13 +49,29 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\SpringPractice\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projects\SpringPractice\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HelloSpringApp">
+  <component name="RunManager" selected="Application.BeanScopeDemoApp">
     <configuration name="BaseballCoach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tahmid.springdemo.BaseballCoach" />
+      <module name="SpringPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tahmid.springdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanScopeDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tahmid.springdemo.BeanScopeDemoApp" />
       <module name="SpringPractice" />
       <extension name="coverage">
         <pattern>
@@ -88,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BeanScopeDemoApp" />
         <item itemvalue="Application.HelloSpringApp" />
         <item itemvalue="Application.com.tahmid.springdemo.MyApp" />
         <item itemvalue="Application.BaseballCoach" />
@@ -104,7 +122,9 @@
       <updated>1661771937267</updated>
       <workItem from="1661771939149" duration="4511000" />
       <workItem from="1661794749000" duration="2061000" />
-      <workItem from="1661834965045" duration="11005000" />
+      <workItem from="1661834965045" duration="11394000" />
+      <workItem from="1661882452203" duration="26000" />
+      <workItem from="1661924370687" duration="1661000" />
     </task>
     <servers />
   </component>
