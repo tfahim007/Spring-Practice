@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb8c35a8-6a52-4cb3-ab54-7b6f04e770b2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4bed90e67371abbf0225d4972214114e2e6ff88" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringPractice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotation-applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/annotation-applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tahmid/springdemo/SpringAnnotationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tahmid/springdemo/SpringAnnotationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tahmid/springdemo/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tahmid/springdemo/TennisCoach.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -38,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Projects/SpringPractice/src",
+    "last_opened_file_path": "C:/Projects/SpringPractice/src/com/tahmid/annotationdemo",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
@@ -49,6 +53,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\SpringPractice\src\com\tahmid\annotationdemo" />
       <recent name="C:\Projects\SpringPractice\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -58,39 +63,13 @@
       <recent name="com.tahmid.springdemo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpringAnnotationDemo">
+  <component name="RunManager" selected="Application.com.tahmid.annotationdemo.AnnotDemo">
     <configuration name="Annotation.HelloSpringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Annotation.HelloSpringApp" />
       <module name="SpringPractice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Annotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeanLifecycleDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tahmid.springdemo.BeanLifecycleDemoApp" />
-      <module name="SpringPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tahmid.springdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeanScopeDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tahmid.springdemo.BeanScopeDemoApp" />
-      <module name="SpringPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tahmid.springdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,13 +103,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.tahmid.annotationdemo.AnnotDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tahmid.annotationdemo.AnnotDemo" />
+      <module name="SpringPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tahmid.annotationdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.tahmid.annotationdemo.AnnotationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tahmid.annotationdemo.AnnotationDemo" />
+      <module name="SpringPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tahmid.annotationdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.tahmid.annotationdemo.AnnotDemo" />
+        <item itemvalue="Application.com.tahmid.annotationdemo.AnnotationDemo" />
         <item itemvalue="Application.SpringAnnotationDemo" />
         <item itemvalue="Application.HelloSpringApp" />
         <item itemvalue="Application.Annotation.HelloSpringApp" />
-        <item itemvalue="Application.BeanLifecycleDemoApp" />
-        <item itemvalue="Application.BeanScopeDemoApp" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +151,7 @@
       <workItem from="1661794749000" duration="2061000" />
       <workItem from="1661834965045" duration="11394000" />
       <workItem from="1661882452203" duration="26000" />
-      <workItem from="1661924370687" duration="4945000" />
+      <workItem from="1661924370687" duration="9588000" />
     </task>
     <servers />
   </component>
@@ -163,5 +168,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.BeanNotOfRequiredTypeException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

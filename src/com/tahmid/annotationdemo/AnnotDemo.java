@@ -1,18 +1,15 @@
-package com.tahmid.springdemo;
+package com.tahmid.annotationdemo;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.stereotype.Component;
 
 /**
  * @author Tahmidul Islam
  */
-
-public class SpringAnnotationDemo {
+public class AnnotDemo {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("annotation-applicationContext.xml");
         Coach theCoach = context.getBean("tennisCoach",Coach.class);
         System.out.println(theCoach.getDailyWorkout());
-        context.close();
     }
 }
