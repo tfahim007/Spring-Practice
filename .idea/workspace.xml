@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb8c35a8-6a52-4cb3-ab54-7b6f04e770b2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tahmid/annotationdemo/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tahmid/annotationdemo/TennisCoach.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,7 +44,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.applicationServers",
-    "spring.configuration.checksum": "8fb35777a1c593ff2f1dfb75520a1ec1"
+    "spring.configuration.checksum": "d8d713360bed2d625055a87905a3658c"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -56,16 +56,17 @@
       <recent name="C:\Projects\SpringPractice\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tahmid.annotationdemo" />
       <recent name="com.tahmid.springdemo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.tahmid.annotationdemo.AnnotDemo">
-    <configuration name="Annotation.HelloSpringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Annotation.HelloSpringApp" />
+  <component name="RunManager" selected="Application.ConfigAnnotDemo">
+    <configuration name="ConfigAnnotDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tahmid.annotationdemo.ConfigAnnotDemo" />
       <module name="SpringPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Annotation.*" />
+          <option name="PATTERN" value="com.tahmid.annotationdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConfigAnnotDemo" />
         <item itemvalue="Application.com.tahmid.annotationdemo.AnnotDemo" />
         <item itemvalue="Application.com.tahmid.annotationdemo.AnnotationDemo" />
         <item itemvalue="Application.SpringAnnotationDemo" />
         <item itemvalue="Application.HelloSpringApp" />
-        <item itemvalue="Application.Annotation.HelloSpringApp" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +148,8 @@
       <workItem from="1661794749000" duration="2061000" />
       <workItem from="1661834965045" duration="11394000" />
       <workItem from="1661882452203" duration="26000" />
-      <workItem from="1661924370687" duration="11198000" />
+      <workItem from="1661924370687" duration="11948000" />
+      <workItem from="1662012923434" duration="627000" />
     </task>
     <servers />
   </component>

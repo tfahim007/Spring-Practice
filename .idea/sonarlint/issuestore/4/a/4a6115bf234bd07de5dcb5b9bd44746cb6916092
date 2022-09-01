@@ -1,0 +1,5 @@
+
+x
+java:S1450"]Remove the "fortuneService" field and declare it as a local variable in the relevant methods.(èÏÉúÿÿÿÿ
+M
+java:S1068"2Remove this unused "fortuneService" private field.(èÏÉúÿÿÿÿ
